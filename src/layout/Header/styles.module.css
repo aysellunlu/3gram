@@ -1,0 +1,34 @@
+.container {
+  background-color: var(--white);
+  padding: 18px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.logoContainer {
+  flex: 0 0 calc(25.6%);
+  justify-content: center;
+  display: flex;
+  align-self: center;
+  align-items: center;
+}
+.searchContainer {
+  flex: 0 0 calc(41%);
+  align-self: center;
+  align-items: center;
+  display: flex;
+}
+.iconContainer {
+  flex: 0 0 calc(3.5%);
+  justify-content: center;
+  display: flex;
+  align-self: center;
+  align-items: center;
+}
+.profileContainer {
+  flex: 0 0 calc(15%);
+  display: flex;
+  align-self: center;
+  align-items: center;
+}

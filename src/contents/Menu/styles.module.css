@@ -1,0 +1,35 @@
+.option {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  align-self: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.selected {
+  color: var(--purple);
+  border-left: 10px var(--purple) solid;
+  background-color: var(--selected-gray);
+}
+.nonSelected {
+  color: var(--left-menu-gray);
+  margin-left: 10px;
+}
+.optionText {
+  font-size: 16px;
+  font-weight: var(--text-semi-bold);
+  padding-left: 10px;
+}
+.nonSelected:hover {
+  color: var(--purple);
+  border-left: 10px var(--purple) solid;
+  margin-left: 0px;
+  background-color: var(--selected-gray);
+}
+.icon {
+  fill: #9798b4;
+}
+.icon:hover {
+  fill: var(--purple);
+}

@@ -1,0 +1,14 @@
+.input {
+    background-color: var(--searcbox-input-bg-color);
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 14px;
+    width: 100%;
+  }
+  ::placeholder {
+    color: var(--placeholder-color);
+    font-weight: var(text-regular);
+    font-size: 14px;
+    padding: 10px;
+  }
+  

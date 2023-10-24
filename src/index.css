@@ -1,0 +1,70 @@
+:root {
+  --bg-color: #f3f3f6;
+  --white: #ffff;
+  --purple: #5458f7;
+  --black: #0000;
+  --left-menu-gray: #9798b4;
+  --comment-input-text-color: #9e9ea8;
+  --comment-input-bg-color: #f8f8f8;
+  --comment-text-color: #272727;
+  --comment-date-color: #b4bbc6;
+  --placeholder-color: #c4c4d4;
+  --trend-first-text-color: rgba(52, 52, 63, 0.7);
+  --trend-second-text-color: rgba(70, 70, 101, 0.6);
+  --searcbox-input-bg-color: #f9f9fb;
+  --news-card-header-color: #2c2c2c;
+  --selected-gray: #f3f3f6b2;
+  --line-gray: #eff4f6;
+  --green: #00cc99;
+  --night-blue: #060740;
+  --primary-text: "Nunito Sans", sans-serif;
+  --secondary-text: "Roboto", sans-serif;
+  --text-regular: 400;
+  --text-medium: 500;
+  --text-semi-bold: 600;
+  --text-bold: 700;
+  --text-extra-bold: 800;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+* {
+  border: none;
+}
+html,
+body {
+  height: 100%;
+  overflow-x: hidden;
+  min-height: 100%;
+  font-family: var(--primary-text);
+  background-color: var(--bg-color);
+}
+#root {
+  width: 100%;
+  height: 100%;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.swiper-pagination-bullet-active {
+  background: var(--swiper-pagination-bullet-inactive-color, #000) !important;
+  opacity: var(--swiper-pagination-bullet-inactive-opacity, 0.2) !important;
+  padding: 6px !important;
+  align-items: center !important;
+  align-self: center !important;
+
+}
+.swiper-pagination-bullet{
+  align-items: center !important;
+  align-self: center !important;
+
+}

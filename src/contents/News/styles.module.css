@@ -1,0 +1,17 @@
+.container {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.title {
+  font-size: 22px;
+  padding: 10px;
+}
+.text {
+  font-size: 16px;
+  font-weight: var(--text-regular);
+  color: #000;
+  padding: 15px;
+}
+.sliderContainer {
+  padding: 10px;
+}

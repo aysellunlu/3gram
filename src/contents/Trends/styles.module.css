@@ -1,0 +1,33 @@
+.container {
+  padding: 15px;
+}
+.title {
+  color: black;
+  font-size: 18px;
+  font-weight: var(--text-bold);
+}
+.moreContainer {
+}
+.imageContainer {
+  padding-top: 15px;
+}
+.firstText {
+  font-size: 13px;
+  color: var(--trend-first-text-color);
+  font-weight: var(--text-bold);
+  justify-content: center;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  padding-top: 5px;
+}
+.secondText {
+  font-size: 13px;
+  color: var(--trend-second-text-color);
+  font-weight: var(--text-regular);
+  justify-content: center;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  padding-top: 5px;
+}

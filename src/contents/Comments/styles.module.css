@@ -1,0 +1,17 @@
+.title {
+  font-size: 22px;
+  font-weight: var(--text-semi-bold);
+  padding-left: 10%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  border-bottom: 1px var(--searcbox-input-bg-color) solid;
+}
+.commentInputContainer{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.buttonContainer{
+padding-left:5% ;
+padding-right: 5%;
+padding-bottom: 5%;
+}
